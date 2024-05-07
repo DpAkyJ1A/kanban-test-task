@@ -18,18 +18,6 @@ body {
   margin: 0 auto;
 }
 
-h2 {
-  font-weight: 500;
-  font-size: 49.25px;
-  line-height: 66px;
-}
-
-h3 {
-  font-size: 19.359px;
-  font-weight: 600;
-  line-height: 28px;
-}
-
 a {
   text-decoration: none;
   color: unset;
