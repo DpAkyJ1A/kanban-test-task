@@ -1,0 +1,19 @@
+.btn {
+  width: 218px;
+  height: 64px;
+  min-height: 64px;
+  background-color: #ffd531;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #000;
+  font-size: 15.805px;
+  font-weight: 600;
+  line-height: 19.01px;
+
+  transition: background-color 0.1s ease-in;
+}
+
+.btn:hover {
+  background-color: #ffbf00;
+}

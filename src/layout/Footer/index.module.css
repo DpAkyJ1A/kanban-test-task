@@ -1,0 +1,164 @@
+.footer {
+  background-color: #f2f2f2;
+}
+
+.footer__topRow,
+.footer__middleRow,
+.footer__bottomRow {
+  display: flex;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.footer__topRow {
+  padding: 178px 163px 0 170px;
+
+  font-weight: 400;
+  font-size: 16.31px;
+  line-height: 28px;
+  align-items: flex-start;
+}
+
+.footer__middleRow {
+  padding: 74px 249px 60px 182px;
+  background-color: #f2f2f2;
+}
+
+.footer__bottomRow {
+  background-color: #161616;
+  height: 48px;
+  align-items: center;
+  width: 100%;
+}
+
+.footer__logo {
+  display: flex;
+  align-items: center;
+  gap: 27px;
+}
+
+.footer__logoWrapper {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+}
+
+.footer__logoWrapper span {
+  width: 47.79px;
+  height: 48px;
+  background-image: url('../../assets/icons/logo.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.footer__companyName {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 26px;
+  line-height: 52.7px;
+}
+
+.footer__menu {
+  margin-left: 316px;
+  margin-right: 93.33px;
+}
+
+.footer__menu b,
+.footer__companyInfo b {
+  font-weight: 600;
+  font-size: 19.52px;
+}
+
+.footer__menu ul {
+  margin-top: 23.24px;
+  list-style-type: none;
+}
+
+.footer__menu ul li + li {
+  margin-top: 11px;
+}
+
+.footer__companyInfo {
+  width: 132px;
+}
+
+.footer__companyInfo p {
+  margin-top: 23.24px;
+  width: 123.58px;
+}
+
+.footer__cardsTypeImg {
+  display: flex;
+  gap: 9.4px;
+  margin-left: 60px;
+}
+
+.footer__cardsTypeImg span {
+  width: 56.4px;
+  height: 38.94px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.visa {
+  background: url('../../assets/icons/visa.svg');
+}
+
+.mastercard {
+  background: url('../../assets/icons/mastercard.svg');
+}
+
+.maestro {
+  background: url('../../assets/icons/maestro.svg');
+}
+
+.footer__topRowContent {
+  border-bottom: 2px solid #d2d2d2;
+  padding-bottom: 131.99px;
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+}
+
+.footer__middleRow ul {
+  display: flex;
+  font-size: 16.17px;
+  line-height: 28px;
+}
+
+.footer__middleRow ul li {
+  padding-left: 3.5px;
+}
+
+.footer__middleRow ul li:first-child {
+  margin-top: -14px;
+}
+
+.footer__middleRow ul li a {
+  font-weight: 600;
+  font-size: 19.52px;
+  line-height: 28px;
+}
+
+.footer__joinCommunity {
+  width: 345px;
+  margin-right: 205px;
+}
+
+.footer__email {
+  margin-right: 65px;
+}
+
+.footer__bottomRow h6 {
+  color: #929292;
+  font-weight: 600;
+  font-size: 10.31px;
+  line-height: 16.5px;
+  margin-left: 170px;
+  margin-top: 2px;
+}
