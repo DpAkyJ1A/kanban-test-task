@@ -1,15 +1,28 @@
-.workspace {
+.main {
   width: 100%;
   height: 100vh;
-  padding: 20px;
   background-color: #8f3f65;
+  color: #b6c2cf;
+  padding: 20px;
+}
+
+.main h2 {
+  font-size: 2rem;
+  width: 100%;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+
+.workspace {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
   gap: 20px;
 }
 
 .board {
   background-color: #101204;
-  color: #b6c2cf;
   padding: 8px;
   width: 272px;
   height: fit-content;
@@ -43,4 +56,92 @@
 
 .board__taskList li:hover {
   outline: 2px solid #85b8ff;
+}
+
+.board__addTaskContainer {
+  margin-top: 10px;
+}
+
+.board__addTaskButton {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+
+.board__addTaskButton:hover {
+  background-color: #343434;
+}
+
+.board__addTaskButton span {
+  font-size: 1.5rem;
+}
+
+.board__addTask {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.board__addTask textarea {
+  width: 100%;
+  height: 76px;
+  padding: 8px 12px;
+  background-color: #22272b;
+  color: inherit;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  resize: none;
+}
+
+.row {
+  display: flex;
+  gap: 5px;
+}
+
+.addButton,
+.crossButton {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.addButton {
+  padding: 6px 12px;
+  color: #1d2125;
+  background-color: #579dff;
+  font-weight: 600;
+}
+
+.addButton:hover {
+  background-color: #6ba8fd;
+}
+
+.crossButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background-color: inherit;
+  color: inherit;
+}
+
+.crossButton:hover {
+  background-color: #343434;
+}
+
+.row .crossButton span {
+  display: block;
+  font-size: 1.6rem;
+  transform: rotate(45deg);
 }
